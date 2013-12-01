@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.source_files = '**/*.h'
     s.preserve_paths = '*.a'
-    s.library = 'FlurryAds_4.2.3'
+    s.library = 'FlurryAds_4.3.0'
     s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/FlurryAds"' }
     s.weak_frameworks = 'StoreKit' 
     s.frameworks = 'SystemConfiguration', 'MediaPlayer', 'Security', 'AdSupport'  
